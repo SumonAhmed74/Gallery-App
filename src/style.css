@@ -81,7 +81,7 @@ ol,ul{
 }
 
 .logIN-part .inputBox input{
-    margin-right: 12px;
+    margin-right: 16px;
 }
 
 .Registration-part .inputBox {
@@ -111,7 +111,7 @@ ol,ul{
     border-radius: 5px;
     padding: 8px;
     margin-bottom: 20px;
-    margin-left: 17px;
+    margin-left: 19px;
 }
 
 .Registration-part .inputBox .btn {
@@ -202,10 +202,13 @@ Gallery App design Start
    margin-left: 25px;
    padding-bottom: 25px;
 }
-/* .HomePageBox .imgBox .modalImg{
-  width: 100%;
-  height: 100%;
-} */
+.HomePageBox .imgBox p{
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    font-size: 20px;
+}
+
 
 .HomePageBox .iconBox .box{
     text-align: center;

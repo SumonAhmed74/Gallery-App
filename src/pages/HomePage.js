@@ -117,7 +117,7 @@ const HomePage = () => {
            
             <div className='box'>
               <RiImageAddFill className='uploadIcon' onClick={imageUploadHandler} />
-              <h2>Wellcome {auth.currentUser.displayName} <ImHappy2 style={{color:'#FBBC04'}}/></h2>
+              <h2>Wellcome To {auth.currentUser.displayName} <ImHappy2 style={{color:'#FBBC04'}}/></h2>
               <h3>Look down an example of Gallery
                 please add your Images:
               </h3>
@@ -171,14 +171,11 @@ const HomePage = () => {
                   aria-labelledby="modal-modal-title"
                   aria-describedby="modal-modal-description"
                 >
-                  
                   <Box sx={style2}>
                   <img className='modalImg' style={{width:"100%",height:"100%"}} src={gallery}/>
                   </Box>
-                  
                 </Modal>
-               
-            
+
           </div>
         </div>
         :
@@ -209,11 +206,11 @@ const style2 = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 600,
+  width: 650,
   height: 580,
   bgcolor: 'background.paper',
   boxShadow: 24,
-  border: '1px solid #000',
+  border: '1px solid #ffff',
 };
 
 export default HomePage
