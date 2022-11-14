@@ -80,9 +80,13 @@ ol,ul{
     width: 84%;
 }
 
+.logIN-part .inputBox input{
+    margin-right: 12px;
+}
 
 .Registration-part .inputBox {
     margin-top: 58px;
+    text-align: center;
 }
 
 .Registration-part .box h4{
@@ -107,6 +111,7 @@ ol,ul{
     border-radius: 5px;
     padding: 8px;
     margin-bottom: 20px;
+    margin-left: 17px;
 }
 
 .Registration-part .inputBox .btn {
